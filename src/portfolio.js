@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Lahcen Ezzara",
+  title: "Lahcen EZZARA",
   logo_name: "LahcenEzzara",
   nickname: "",
   subTitle:
