@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Artificial Intelligence & Computer Engineering Student at ENSAM Casablanca, Hassan II University of Casablanca | Python Enthusiast.",
   resumeLink:
-    "https://drive.google.com/file/d/1EieBQ2hOyKwb0wEfZFkI_m-yyA9iI3rc/view?usp=sharing",
+    "/lahcen_ezzara_cv.pdf",
   portfolio_repository: "https://github.com/LahcenEzzara",
   githubProfile: "https://github.com/LahcenEzzara",
 };
