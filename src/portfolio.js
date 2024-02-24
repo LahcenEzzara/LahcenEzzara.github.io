@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Lahcen's Portfolio",
+  title: "Lahcen Ezzara's Portfolio",
   description:
     "Artificial Intelligence & Computer Engineering Student at ENSAM Casablanca, Hassan II University of Casablanca | Python Enthusiast.",
   og: {
-    title: "Lahcen Ezzara Portfolio",
+    title: "Lahcen Ezzara's Portfolio",
     type: "website",
     url: "https://LahcenEzzara.github.io",
   },
@@ -24,9 +24,9 @@ const greeting = {
   nickname: "",
   subTitle:
     "Artificial Intelligence & Computer Engineering Student at ENSAM Casablanca, Hassan II University of Casablanca | Python Enthusiast.",
-  resumeLink:
-    "/lahcen_ezzara_cv.pdf",
-  portfolio_repository: "https://github.com/LahcenEzzara",
+  resumeLink: "/lahcen_ezzara_cv.pdf",
+  portfolio_repository:
+    "https://github.com/LahcenEzzara/LahcenEzzara.github.io",
   githubProfile: "https://github.com/LahcenEzzara",
 };
 
@@ -60,25 +60,25 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://youtube.com",
+    link: "https://www.youtube.com/@LahcenEzzara",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com",
+    link: "https://twitter.com/LahcenEzzara",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com",
+    link: "https://web.facebook.com/profile.php?id=61556601060264",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/lahcenezzara",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -86,7 +86,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-
     {
       title: "Software Development",
       fileName: "FullStackImg",
@@ -157,12 +156,9 @@ const skills = {
           style: {
             color: "#F80000",
           },
-        }
-
-
+        },
       ],
     },
-
   ],
 };
 
@@ -175,7 +171,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/",
+      profileLink: "https://leetcode.com/LahcenEzzara",
     },
     {
       siteName: "HackerRank",
@@ -191,7 +187,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/",
+      profileLink: "https://www.codechef.com/users/lahcenezzara",
     },
     {
       siteName: "Codeforces",
@@ -199,7 +195,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/",
+      profileLink: "https://codeforces.com/profile/LahcenEzzara",
     },
     {
       siteName: "Hackerearth",
@@ -207,7 +203,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/",
+      profileLink: "https://www.hackerearth.com/@LahcenEzzara",
     },
     {
       siteName: "Kaggle",
@@ -228,10 +224,7 @@ const degrees = {
       logo_path: "ensam.svg",
       alt_name: "ENSAM CASA",
       duration: "2022 - 2025",
-      descriptions: [
-        "⚡ Artificial Intelligence & Computer Engineering.",
-
-      ],
+      descriptions: ["⚡ Artificial Intelligence & Computer Engineering."],
       website_link: "http://www.ensam-casa.ma",
     },
     {
@@ -319,8 +312,7 @@ const certifications = {
       title: "Build a Full Website using WordPress",
       subtitle: "Coursera",
       logo_path: "coursera.png",
-      certificate_link:
-        "https://coursera.org/verify/8UGGLYKSGLPT",
+      certificate_link: "https://coursera.org/verify/8UGGLYKSGLPT",
       alt_name: "Coursera",
       color_code: "#4285F499",
     },
@@ -337,8 +329,7 @@ const certifications = {
       title: "Create a Profile and Network on LinkedIn",
       subtitle: "Coursera",
       logo_path: "coursera.png",
-      certificate_link:
-        "https://coursera.org/verify/5LZSN92ZJGDC",
+      certificate_link: "https://coursera.org/verify/5LZSN92ZJGDC",
       alt_name: "Coursera",
       color_code: "#4285F499",
     },
@@ -346,8 +337,7 @@ const certifications = {
       title: "Small Business Marketing Using LinkedIn",
       subtitle: "Coursera",
       logo_path: "coursera.png",
-      certificate_link:
-        "https://coursera.org/verify/2W42DWNE54GD",
+      certificate_link: "https://coursera.org/verify/2W42DWNE54GD",
       alt_name: "Coursera",
       color_code: "#4285F499",
     },
@@ -355,8 +345,7 @@ const certifications = {
       title: "Create a Facebook Business Page",
       subtitle: "Coursera",
       logo_path: "coursera.png",
-      certificate_link:
-        "https://coursera.org/verify/YSR62ZP3G5FY",
+      certificate_link: "https://coursera.org/verify/YSR62ZP3G5FY",
       alt_name: "Coursera",
       color_code: "#4285F499",
     },
@@ -364,8 +353,7 @@ const certifications = {
       title: "How to Create an Instagram Business Account",
       subtitle: "Coursera",
       logo_path: "coursera.png",
-      certificate_link:
-        "https://coursera.org/verify/RSHE247B8JE4",
+      certificate_link: "https://coursera.org/verify/RSHE247B8JE4",
       alt_name: "Coursera",
       color_code: "#4285F499",
     },
@@ -409,21 +397,18 @@ const certifications = {
       title: "Baccalaureate Certificate",
       subtitle: "Ministry of National Education (Morocco)",
       logo_path: "mne.svg",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "MNE",
       color_code: "#4285F499",
     },
   ],
 };
 
-
 // Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -441,7 +426,6 @@ const experience = {
             "I am responsible for the management of the club, the organization of events and the supervision of the club's activities.",
           color: "#0879bf",
         },
-
       ],
     },
     {
@@ -474,7 +458,6 @@ const experience = {
             "I am responsible for the training of students in the use of Python programming language.",
           color: "#4285F4",
         },
-
       ],
     },
   ],
@@ -501,12 +484,11 @@ const publications = {
       id: "1",
       name: "Propagation du Covid-19 : Approche mathématique",
       createdAt: "2022-07-22",
-      description: "Modéliser l’épidémie de COVID-19 en se basant sur le modèle SIR.\nCalcul et interprétation des paramètres de COVID-19.\nRéalisation d'un Portail de surveillance et de sensibilisation COVID-19 dans un centre CPGE. ",
+      description:
+        "Modéliser l’épidémie de COVID-19 en se basant sur le modèle SIR.\nCalcul et interprétation des paramètres de COVID-19.\nRéalisation d'un Portail de surveillance et de sensibilisation COVID-19 dans un centre CPGE. ",
       url:
-      "https://drive.google.com/drive/folders/1VoUEgbHp_sHnLz5MPnlAmonNS1oU0dn9",
+        "https://drive.google.com/drive/folders/1VoUEgbHp_sHnLz5MPnlAmonNS1oU0dn9",
     },
-
-
   ],
 };
 
